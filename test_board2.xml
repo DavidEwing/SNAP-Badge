@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/HardwareDev/test_board2/test_board2.sch</source>
+    <date>11/17/2015 6:05:32 AM</date>
+    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESC Badge2016</title>
+        <company>Synapse Wireless</company>
+        <rev>A</rev>
+        <date/>
+        <source>test_board2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>SM220</value>
+      <libsource lib="sm220" part="SM220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564B5D0F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="sm220" part="SM220">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SM220</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="VCC" type="passive"/>
+        <pin num="A3" name="VCC" type="power_in"/>
+        <pin num="A4" name="PF0_ADC0" type="passive"/>
+        <pin num="A5" name="PF2_ADC2_DIG2" type="passive"/>
+        <pin num="A6" name="PF4_ADC4_TCK" type="passive"/>
+        <pin num="A7" name="PF6_ADC6_TDO" type="passive"/>
+        <pin num="A8" name="GND" type="power_in"/>
+        <pin num="B1" name="PE2_XCK0_AIN0" type="passive"/>
+        <pin num="B2" name="PE3_OC3A_AIN1" type="passive"/>
+        <pin num="B3" name="PE5_OC3C_INT5" type="passive"/>
+        <pin num="B4" name="PF1_ADC1" type="passive"/>
+        <pin num="B5" name="TP" type="NotConnected"/>
+        <pin num="B6" name="PF5_ADC5_TMS" type="passive"/>
+        <pin num="B7" name="PF7_ADC7_TDI" type="passive"/>
+        <pin num="B8" name="GND" type="power_in"/>
+        <pin num="C1" name="PE0_RXD0_PDI_PCINT8" type="passive"/>
+        <pin num="C2" name="PE1_TXD0_PDO" type="passive"/>
+        <pin num="C3" name="PE4_OC3B_INT4" type="passive"/>
+        <pin num="C4" name="PE6_T3_INT6" type="passive"/>
+        <pin num="C5" name="PE7_ICP3_INT7_CLK0" type="passive"/>
+        <pin num="C6" name="NC" type="NotConnected"/>
+        <pin num="C7" name="NC" type="NotConnected"/>
+        <pin num="C8" name="NC" type="NotConnected"/>
+        <pin num="D1" name="PB5_OC1A_PCINT5" type="passive"/>
+        <pin num="D2" name="PB6_OC1B_PCINT6" type="passive"/>
+        <pin num="D3" name="PB7_OC0A_OC1C_PCINT7" type="passive"/>
+        <pin num="D4" name="NC" type="NotConnected"/>
+        <pin num="D5" name="NC" type="NotConnected"/>
+        <pin num="D6" name="NC" type="NotConnected"/>
+        <pin num="D7" name="NC" type="NotConnected"/>
+        <pin num="D8" name="GND" type="power_in"/>
+        <pin num="E1" name="PB2_MOSI__PCINT2" type="passive"/>
+        <pin num="E2" name="PB3_MISO__PCINT3" type="passive"/>
+        <pin num="E3" name="PB4_OC2A_PCINT4" type="passive"/>
+        <pin num="E4" name="NC" type="NotConnected"/>
+        <pin num="E5" name="NC" type="NotConnected"/>
+        <pin num="E6" name="NC" type="NotConnected"/>
+        <pin num="E7" name="NC" type="NotConnected"/>
+        <pin num="E8" name="NC" type="NotConnected"/>
+        <pin num="F1" name="PB0_SSN_PCINT0" type="passive"/>
+        <pin num="F2" name="PB1_SCK_PCINT1" type="passive"/>
+        <pin num="F3" name="PD1_SDA_INT1" type="passive"/>
+        <pin num="F4" name="PD0_SCL_INT0" type="passive"/>
+        <pin num="F5" name="TP" type="NotConnected"/>
+        <pin num="F6" name="TP" type="NotConnected"/>
+        <pin num="F7" name="TP" type="NotConnected"/>
+        <pin num="F8" name="GND" type="power_in"/>
+        <pin num="G1" name="CLKI" type="passive"/>
+        <pin num="G2" name="PD7_T0" type="passive"/>
+        <pin num="G3" name="PD4_ICP1" type="passive"/>
+        <pin num="G4" name="PD2_RXD1_INT2" type="passive"/>
+        <pin num="G5" name="PG5_OC0B" type="passive"/>
+        <pin num="G6" name="NC" type="NotConnected"/>
+        <pin num="G7" name="NC" type="NotConnected"/>
+        <pin num="G8" name="GND" type="power_in"/>
+        <pin num="H1" name="GND" type="power_in"/>
+        <pin num="H2" name="PD6_T1" type="passive"/>
+        <pin num="H3" name="PD5_XCK1" type="passive"/>
+        <pin num="H4" name="PD3_TXD1_INT3" type="passive"/>
+        <pin num="H5" name="RESET#" type="passive"/>
+        <pin num="H6" name="NC" type="NotConnected"/>
+        <pin num="H7" name="NC" type="NotConnected"/>
+        <pin num="H8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="sm220">
+      <uri>D:\HardwareDev\KicadLibs\synapse\sm220.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-PadA4)">
+      <node ref="U1" pin="A4"/>
+    </net>
+    <net code="2" name="Net-(U1-PadF4)">
+      <node ref="U1" pin="F4"/>
+    </net>
+    <net code="3" name="Net-(U1-PadC5)">
+      <node ref="U1" pin="C5"/>
+    </net>
+    <net code="4" name="Net-(U1-PadC4)">
+      <node ref="U1" pin="C4"/>
+    </net>
+    <net code="5" name="Net-(U1-PadB3)">
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="6" name="Net-(U1-PadC3)">
+      <node ref="U1" pin="C3"/>
+    </net>
+    <net code="7" name="Net-(U1-PadB2)">
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="8" name="Net-(U1-PadB1)">
+      <node ref="U1" pin="B1"/>
+    </net>
+    <net code="9" name="Net-(U1-PadC2)">
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="10" name="Net-(U1-PadC1)">
+      <node ref="U1" pin="C1"/>
+    </net>
+    <net code="11" name="Net-(U1-PadB7)">
+      <node ref="U1" pin="B7"/>
+    </net>
+    <net code="12" name="Net-(U1-PadA7)">
+      <node ref="U1" pin="A7"/>
+    </net>
+    <net code="13" name="Net-(U1-PadB6)">
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="14" name="Net-(U1-PadA6)">
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="15" name="Net-(U1-PadA5)">
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="16" name="Net-(U1-PadB4)">
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="17" name="Net-(U1-PadF3)">
+      <node ref="U1" pin="F3"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="U1" pin="H1"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="U1" pin="A8"/>
+      <node ref="U1" pin="B8"/>
+      <node ref="U1" pin="H8"/>
+      <node ref="U1" pin="D8"/>
+      <node ref="U1" pin="G8"/>
+      <node ref="U1" pin="F8"/>
+    </net>
+    <net code="19" name="Net-(U1-PadE8)">
+      <node ref="U1" pin="E8"/>
+    </net>
+    <net code="20" name="Net-(U1-PadC8)">
+      <node ref="U1" pin="C8"/>
+    </net>
+    <net code="21" name="Net-(U1-PadG5)">
+      <node ref="U1" pin="G5"/>
+    </net>
+    <net code="22" name="VCC">
+      <node ref="U1" pin="A2"/>
+      <node ref="U1" pin="A3"/>
+    </net>
+    <net code="23" name="Net-(U1-PadG1)">
+      <node ref="U1" pin="G1"/>
+    </net>
+    <net code="24" name="Net-(U1-PadH5)">
+      <node ref="U1" pin="H5"/>
+    </net>
+    <net code="25" name="Net-(U1-PadH7)">
+      <node ref="U1" pin="H7"/>
+    </net>
+    <net code="26" name="Net-(U1-PadD3)">
+      <node ref="U1" pin="D3"/>
+    </net>
+    <net code="27" name="Net-(U1-PadD2)">
+      <node ref="U1" pin="D2"/>
+    </net>
+    <net code="28" name="Net-(U1-PadD1)">
+      <node ref="U1" pin="D1"/>
+    </net>
+    <net code="29" name="Net-(U1-PadE3)">
+      <node ref="U1" pin="E3"/>
+    </net>
+    <net code="30" name="Net-(U1-PadE2)">
+      <node ref="U1" pin="E2"/>
+    </net>
+    <net code="31" name="Net-(U1-PadE1)">
+      <node ref="U1" pin="E1"/>
+    </net>
+    <net code="32" name="Net-(U1-PadF2)">
+      <node ref="U1" pin="F2"/>
+    </net>
+    <net code="33" name="Net-(U1-PadF1)">
+      <node ref="U1" pin="F1"/>
+    </net>
+    <net code="34" name="Net-(U1-PadG2)">
+      <node ref="U1" pin="G2"/>
+    </net>
+    <net code="35" name="Net-(U1-PadH2)">
+      <node ref="U1" pin="H2"/>
+    </net>
+    <net code="36" name="Net-(U1-PadH3)">
+      <node ref="U1" pin="H3"/>
+    </net>
+    <net code="37" name="Net-(U1-PadG3)">
+      <node ref="U1" pin="G3"/>
+    </net>
+    <net code="38" name="Net-(U1-PadH4)">
+      <node ref="U1" pin="H4"/>
+    </net>
+    <net code="39" name="Net-(U1-PadG4)">
+      <node ref="U1" pin="G4"/>
+    </net>
+    <net code="40" name="Net-(U1-PadG7)">
+      <node ref="U1" pin="G7"/>
+    </net>
+    <net code="41" name="Net-(U1-PadF7)">
+      <node ref="U1" pin="F7"/>
+    </net>
+    <net code="42" name="Net-(U1-PadE7)">
+      <node ref="U1" pin="E7"/>
+    </net>
+    <net code="43" name="Net-(U1-PadD7)">
+      <node ref="U1" pin="D7"/>
+    </net>
+    <net code="44" name="Net-(U1-PadC7)">
+      <node ref="U1" pin="C7"/>
+    </net>
+    <net code="45" name="Net-(U1-PadH6)">
+      <node ref="U1" pin="H6"/>
+    </net>
+    <net code="46" name="Net-(U1-PadG6)">
+      <node ref="U1" pin="G6"/>
+    </net>
+    <net code="47" name="Net-(U1-PadF6)">
+      <node ref="U1" pin="F6"/>
+    </net>
+    <net code="48" name="Net-(U1-PadE6)">
+      <node ref="U1" pin="E6"/>
+    </net>
+    <net code="49" name="Net-(U1-PadD6)">
+      <node ref="U1" pin="D6"/>
+    </net>
+    <net code="50" name="Net-(U1-PadC6)">
+      <node ref="U1" pin="C6"/>
+    </net>
+    <net code="51" name="Net-(U1-PadF5)">
+      <node ref="U1" pin="F5"/>
+    </net>
+    <net code="52" name="Net-(U1-PadE5)">
+      <node ref="U1" pin="E5"/>
+    </net>
+    <net code="53" name="Net-(U1-PadD5)">
+      <node ref="U1" pin="D5"/>
+    </net>
+    <net code="54" name="Net-(U1-PadB5)">
+      <node ref="U1" pin="B5"/>
+    </net>
+    <net code="55" name="Net-(U1-PadE4)">
+      <node ref="U1" pin="E4"/>
+    </net>
+    <net code="56" name="Net-(U1-PadD4)">
+      <node ref="U1" pin="D4"/>
+    </net>
+  </nets>
+</export>
