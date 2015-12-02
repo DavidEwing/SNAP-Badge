@@ -1,11 +1,137 @@
 Source,D:/HardwareDev/test_board2/test_board2.sch
 Kicad Rev,Eeschema 4.0.0-rc2-stable
-Generated Date,11/17/2015 6:05:32 AM
+Generated Date,12/1/2015 6:59:45 AM
 
-Title,ESC Badge2016
+Title,SNAP Badge 2016
 Company,Synapse Wireless
 Revision,A
 Date Issue,Not Set
 
-Reference,Value,Library,Library Ref
+Reference,Value,PN,Kcost,Library,Library Ref
+U3,FT230XS,FT230XS,FT230XS
+FB1,600 OHM 500MA,device,FILTER
+R3,27,device,R
+R2,27,device,R
+C1,100nF,device,C
+D65,LED,device,LED
+D66,LED,device,LED
+R4,270,device,R
+R5,270,device,R
+P1,USB_B,conn,USB_B
+U4,LD1117S33CTR,regul,LD1117S33CTR
+C2,100nF,device,C
+BT1,1.5V,device,Battery
+Q1,ZXMN2F30FHCT-ND,device,Q_NMOS_DGS
+SW1,SWITCH_DPDT,JS202011SCQN,0.26,SWITCH_DPDT,SWITCH_DPDT
+C4,10nF,device,C_Small
+C5,47pF,device,C_Small
+C6,47pF,device,C_Small
+BT2,1.5V,device,Battery
+U5,LIS3DH,STM_MEMS,LIS3DH
+C3,10uF,device,C
+C7,4.7uF,device,C
+C8,0.1uF,device,C
+C9,4.7uF,device,C
+C10,0.1uF,device,C
+C11,4.7uF,device,C
+C12,0.1uF,device,C
+SW2,SW_PUSH,device,SW_PUSH
+SW3,SW_PUSH,device,SW_PUSH
+SW4,SW_PUSH,device,SW_PUSH
+D1,LED,device,LED
+R6,270,device,R
+P2,CONN_01X08,conn,CONN_01X08
+P3,CONN_01X08,conn,CONN_01X08
+P4,CONN_01X10,conn,CONN_01X10
+P5,CONN_01X06,conn,CONN_01X06
+P6,CONN_02X03,conn,CONN_02X03
 U1,SM220,sm220,SM220
+R7,1k,device,R
+R8,1k,device,R
+C15,4.7uF,device,C
+D11,LED,device,LED
+D19,LED,device,LED
+D27,LED,device,LED
+D35,LED,device,LED
+D43,LED,device,LED
+D51,LED,device,LED
+D59,LED,device,LED
+D3,LED,device,LED
+D12,LED,device,LED
+D20,LED,device,LED
+D28,LED,device,LED
+D36,LED,device,LED
+D44,LED,device,LED
+D52,LED,device,LED
+D60,LED,device,LED
+D4,LED,device,LED
+D13,LED,device,LED
+D21,LED,device,LED
+D29,LED,device,LED
+D37,LED,device,LED
+D45,LED,device,LED
+D53,LED,device,LED
+D61,LED,device,LED
+D5,LED,device,LED
+D14,LED,device,LED
+D22,LED,device,LED
+D30,LED,device,LED
+D38,LED,device,LED
+D46,LED,device,LED
+D54,LED,device,LED
+D62,LED,device,LED
+D6,LED,device,LED
+D15,LED,device,LED
+D23,LED,device,LED
+D31,LED,device,LED
+D39,LED,device,LED
+D47,LED,device,LED
+D55,LED,device,LED
+D63,LED,device,LED
+D7,LED,device,LED
+D16,LED,device,LED
+D24,LED,device,LED
+D32,LED,device,LED
+D40,LED,device,LED
+D48,LED,device,LED
+D56,LED,device,LED
+D64,LED,device,LED
+D8,LED,device,LED
+D17,LED,device,LED
+D25,LED,device,LED
+D33,LED,device,LED
+D41,LED,device,LED
+D49,LED,device,LED
+D57,LED,device,LED
+D67,LED,device,LED
+D9,LED,device,LED
+D18,LED,device,LED
+D26,LED,device,LED
+D34,LED,device,LED
+D42,LED,device,LED
+D50,LED,device,LED
+D58,LED,device,LED
+D68,LED,device,LED
+D10,LED,device,LED
+R1,12k,device,R
+C13,4.7uF,device,C
+C14,0.1uF,device,C
+U2,AS1115,AS1115-BSST,2.11,as111x,AS1115
+D2,1N4148W,1N4148W-7-F,0.03,device,D_Small
+SW5,SW_DIP_8,1-1825058-9,0.586,sw_dip,SW_DIP_8
+L1,4.7uH  0.9A,TYS30124R7M-10,0.18,device,INDUCTOR_SMALL
+U6,TPS61070,TPS61070DDCR,0.50,regulators,TPS61070
+R11,1M,device,R
+R9,200k,device,R
+R10,100k,device,R
+C16,10uF,device,C
+C17,4.7uF,device,C
+C18,100nF,device,C
+C19,4.7uF,device,C
+D69,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D70,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D71,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D72,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D73,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D74,1N4148W,1N4148W-7-F,0.03,device,D_Small
+D75,1N4148W,1N4148W-7-F,0.03,device,D_Small

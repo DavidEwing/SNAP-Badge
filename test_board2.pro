@@ -1,4 +1,4 @@
-update=11/20/2015 5:24:17 PM
+update=12/1/2015 11:25:31 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,20 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=sm220
-LibName31=as1116
-LibName32=FT230XS
+LibName31=FT230XS
+LibName32=SWITCH_DPDT
+LibName33=STM_MEMS
+LibName34=as111x
+LibName35=sw_dip
+LibName36=regulators
+LibName37=nlsx4373
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
