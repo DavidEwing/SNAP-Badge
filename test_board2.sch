@@ -701,7 +701,7 @@ U 1 1 5658378B
 P 1300 2750
 F 0 "P2" H 1300 3200 50  0000 C CNN
 F 1 "CONN_01X08" V 1400 2750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 1300 2750 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 1300 2750 60  0001 C CNN
 F 3 "" H 1300 2750 60  0000 C CNN
 	1    1300 2750
 	1    0    0    -1  
@@ -712,7 +712,7 @@ U 1 1 565837F6
 P 2450 3500
 F 0 "P3" H 2450 3950 50  0000 C CNN
 F 1 "CONN_01X08" V 2550 3500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 2450 3500 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 2450 3500 60  0001 C CNN
 F 3 "" H 2450 3500 60  0000 C CNN
 	1    2450 3500
 	1    0    0    -1  
@@ -723,7 +723,7 @@ U 1 1 56583867
 P 2450 2400
 F 0 "P4" H 2450 2950 50  0000 C CNN
 F 1 "CONN_01X10" V 2550 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 2450 2400 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 2450 2400 60  0001 C CNN
 F 3 "" H 2450 2400 60  0000 C CNN
 	1    2450 2400
 	1    0    0    -1  
@@ -734,7 +734,7 @@ U 1 1 565838E4
 P 1300 3600
 F 0 "P5" H 1300 3950 50  0000 C CNN
 F 1 "CONN_01X06" V 1400 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1300 3600 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06" H 1300 3600 60  0001 C CNN
 F 3 "" H 1300 3600 60  0000 C CNN
 	1    1300 3600
 	1    0    0    -1  
