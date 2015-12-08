@@ -1305,15 +1305,15 @@ Wire Wire Line
 $Comp
 L SW_DIP_8 SW5
 U 1 1 565CF2D0
-P 7600 2050
-F 0 "SW5" H 7570 2519 60  0000 C CNN
-F 1 "SW_DIP_8" H 7570 1549 60  0000 C CNN
-F 2 "Synapse:DIPSW-16" H 7570 2049 60  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/1-1825058-9/1-1825058-9-ND/1021551" H 7570 2049 60  0001 C CNN
-F 4 "1-1825058-9" H 7600 2050 60  0001 C CNN "PN"
-F 5 "0.586" H 7600 2050 60  0001 C CNN "Kcost"
-	1    7600 2050
-	1    0    0    -1  
+P 7550 2050
+F 0 "SW5" H 7520 2519 60  0000 C CNN
+F 1 "SW_DIP_8" H 7520 1549 60  0000 C CNN
+F 2 "Synapse:DIPSW-16" H 7520 2049 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/1-1825058-9/1-1825058-9-ND/1021551" H 7520 2049 60  0001 C CNN
+F 4 "1-1825058-9" H 7550 2050 60  0001 C CNN "PN"
+F 5 "0.586" H 7550 2050 60  0001 C CNN "Kcost"
+	1    7550 2050
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6700 1150 7200 1150
@@ -1376,15 +1376,9 @@ Text Label 6300 2900 2    60   ~ 0
 SEGG
 Text Label 6300 1150 2    60   ~ 0
 SEGDP
-Connection ~ 7950 1900
-Connection ~ 7950 2000
-Connection ~ 7950 2100
-Connection ~ 7950 2200
-Connection ~ 7950 2300
 NoConn ~ 9950 1300
 Wire Wire Line
 	7950 2400 8950 2400
-Connection ~ 7950 2400
 $Comp
 L INDUCTOR_SMALL L1
 U 1 1 565A9478
@@ -1573,9 +1567,6 @@ Wire Wire Line
 	6350 4350 6350 4300
 Wire Wire Line
 	6350 4300 7000 4300
-Wire Wire Line
-	7950 1700 7950 2400
-Connection ~ 7950 1800
 $Comp
 L C C18
 U 1 1 565B9418
@@ -1800,4 +1791,13 @@ Text GLabel 7150 5300 2    60   Input ~ 0
 LED_PWR_EN
 Text Notes 9200 5400 0    60   ~ 0
 I2C Level Translator
+Connection ~ 7950 2200
+Connection ~ 7950 2400
+Connection ~ 7950 2300
+Connection ~ 7950 2100
+Connection ~ 7950 1900
+Wire Wire Line
+	7950 1700 7950 2400
+Connection ~ 7950 2000
+Connection ~ 7950 1800
 $EndSCHEMATC

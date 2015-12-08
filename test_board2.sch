@@ -601,7 +601,7 @@ $EndComp
 Text Notes 6150 6750 0    60   ~ 0
 FT230X
 Text Label 6150 6900 0    60   ~ 0
-VREG_IN
+VIN_USB
 $Comp
 L SW_PUSH SW2
 U 1 1 5656F4B0
