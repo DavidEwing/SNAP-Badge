@@ -73,7 +73,6 @@ F 3 "" H 3900 3100 60  0000 C CNN
 	1    3900 3100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4250 2750
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 564B5E55
@@ -889,7 +888,7 @@ PE4
 Text Label 6400 1650 0    60   ~ 0
 PD4
 Wire Wire Line
-	3900 2950 3900 3100
+	3900 2750 3900 3100
 Wire Wire Line
 	1850 800  1850 850 
 Wire Wire Line
@@ -1051,7 +1050,7 @@ Connection ~ 9850 2550
 Wire Wire Line
 	6350 1350 6800 1350
 Wire Wire Line
-	6950 1250 6350 1250
+	6350 1250 6950 1250
 Wire Wire Line
 	6350 2650 6800 2650
 Wire Wire Line
@@ -1210,7 +1209,6 @@ Wire Wire Line
 	4250 2550 3900 2550
 Text Label 6400 2650 0    60   ~ 0
 PB6
-NoConn ~ 4250 1450
 NoConn ~ 4250 2150
 Wire Wire Line
 	2250 3250 1800 3250
@@ -1581,4 +1579,35 @@ Wire Wire Line
 Connection ~ 6750 5700
 Wire Wire Line
 	6200 5900 6200 5950
+$Comp
+L GND #PWR027
+U 1 1 5669638E
+P 3650 2000
+F 0 "#PWR027" H 3650 1750 50  0001 C CNN
+F 1 "GND" H 3650 1850 50  0000 C CNN
+F 2 "" H 3650 2000 60  0000 C CNN
+F 3 "" H 3650 2000 60  0000 C CNN
+	1    3650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1900 3650 2000
+Wire Wire Line
+	4250 2750 3900 2750
+Connection ~ 3900 2950
+$Comp
+L R R16
+U 1 1 56698EE9
+P 3650 1750
+F 0 "R16" V 3730 1750 50  0000 C CNN
+F 1 "4.7k" V 3650 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3580 1750 30  0001 C CNN
+F 3 "" H 3650 1750 30  0000 C CNN
+	1    3650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1450 3650 1450
+Wire Wire Line
+	3650 1450 3650 1600
 $EndSCHEMATC
