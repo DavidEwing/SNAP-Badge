@@ -1,148 +1,193 @@
-Source,D:/HardwareDev/test_board2/test_board2.sch
-Kicad Rev,Eeschema 4.0.0-rc2-stable
-Generated Date,12/16/2015 3:20:37 PM
+Source:,D:\HardwareDev\test_board2\test_board2.sch
+Date:,12/17/2015 9:57:04 AM
+Tool:,Eeschema 4.0.0-rc2-stable
+Generator:,D:/HardwareDev/BOM/bom-in-python/bom_csv_grouped_by_value.py
+Component Count:,138
 
-Title,SNAP Badge 2016
-Company,Synapse Wireless
-Revision,A
-Date Issue,2015-12-01
+Individual Components:
 
-Reference,Value,Kcost,PN,Library,Library Ref
-U3,FT230XS,1.53,FT230XS-R,FT230XS,FT230XS
-FB1,600 OHM 500MA,device,FILTER
-R3,27,device,R
-R2,27,device,R
-C1,100nF,device,C
-D65,LED,device,LED
-D66,LED,device,LED
-R4,270,device,R
-R5,270,device,R
-U4,LD1117S33CTR,0.14,,regul,LD1117S33CTR
-C2,100nF,device,C
-BT1,1.5V,device,Battery
-SW1,SWITCH_DPDT,0.26,JS202011SCQN,SWITCH_DPDT,SWITCH_DPDT
-C4,10nF,device,C_Small
-C5,47pF,device,C_Small
-C6,47pF,device,C_Small
-BT2,1.5V,device,Battery
-U5,LIS3DH,0.80,LIS3DHTR,STM_MEMS,LIS3DH
-C3,10uF,device,C
-C7,22uF,device,C
-C9,4.7uF,device,C
-C10,0.1uF,device,C
-C11,4.7uF,device,C
-C12,0.1uF,device,C
-SW2,SW_PUSH,0.16,PTS645SL50SMTR92 LFS,device,SW_PUSH
-D1,LED,device,LED
-R6,270,device,R
-P2,CONN_01X08,conn,CONN_01X08
-P3,CONN_01X08,conn,CONN_01X08
-P4,CONN_01X10,conn,CONN_01X10
-P5,CONN_01X06,conn,CONN_01X06
-P6,CONN_02X03,conn,CONN_02X03
-U1,SM220,sm220,SM220
-R7,1k,device,R
-R8,1k,device,R
-C15,4.7uF,device,C
-R12,100k,device,R_Small
-C8,22uF,device,C
-C20,0.1uF,device,C
-Q2,Si2305DS,0.14,SI2305CDS-T1-GE3,device,Q_PMOS_GSD
-C21,100nF,device,C
-R13,39k,device,R
-Q1,ZXMN2F30FHCT-ND,0.15,ZXMN2F30FHTA,device,Q_NMOS_GSD
-C23,22uF,device,C
-C22,22uF,device,C
-R14,4.7k,device,R_Small
-R15,4.7k,device,R_Small
-SW3,SW_PUSH,0.16,PTS645SL50SMTR92 LFS,device,SW_PUSH
-SW4,SW_PUSH,0.16,PTS645SL50SMTR92 LFS,device,SW_PUSH
-P1,MicroB,0.20,10118194-0001LF,conn,USB_OTG
-R16,4.7k,device,R
-D11,LED,device,LED
-D19,LED,device,LED
-D27,LED,device,LED
-D35,LED,device,LED
-D43,LED,device,LED
-D51,LED,device,LED
-D59,LED,device,LED
-D3,LED,device,LED
-D12,LED,device,LED
-D20,LED,device,LED
-D28,LED,device,LED
-D36,LED,device,LED
-D44,LED,device,LED
-D52,LED,device,LED
-D60,LED,device,LED
-D4,LED,device,LED
-D13,LED,device,LED
-D21,LED,device,LED
-D29,LED,device,LED
-D37,LED,device,LED
-D45,LED,device,LED
-D53,LED,device,LED
-D61,LED,device,LED
-D5,LED,device,LED
-D14,LED,device,LED
-D22,LED,device,LED
-D30,LED,device,LED
-D38,LED,device,LED
-D46,LED,device,LED
-D54,LED,device,LED
-D62,LED,device,LED
-D6,LED,device,LED
-D15,LED,device,LED
-D23,LED,device,LED
-D31,LED,device,LED
-D39,LED,device,LED
-D47,LED,device,LED
-D55,LED,device,LED
-D63,LED,device,LED
-D7,LED,device,LED
-D16,LED,device,LED
-D24,LED,device,LED
-D32,LED,device,LED
-D40,LED,device,LED
-D48,LED,device,LED
-D56,LED,device,LED
-D64,LED,device,LED
-D8,LED,device,LED
-D17,LED,device,LED
-D25,LED,device,LED
-D33,LED,device,LED
-D41,LED,device,LED
-D49,LED,device,LED
-D57,LED,device,LED
-D67,LED,device,LED
-D9,LED,device,LED
-D18,LED,device,LED
-D26,LED,device,LED
-D34,LED,device,LED
-D42,LED,device,LED
-D50,LED,device,LED
-D58,LED,device,LED
-D68,LED,device,LED
-D10,LED,device,LED
-R1,10k,device,R
-C13,4.7uF,device,C
-C14,0.1uF,device,C
-U2,AS1115,2.11,AS1115-BSST,as111x,AS1115
-D2,1N4148W,0.03,1N4148W-7-F,device,D_Small
-SW5,SW_DIP_8,0.586,1-1825058-9,sw_dip,SW_DIP_8
-L1,4.7uH  0.9A,0.18,TYS30124R7M-10,device,INDUCTOR_SMALL
-U6,TPS61070,0.50,TPS61070DDCR,regulators,TPS61070
-R11,1M,device,R
-R9,200k,device,R
-R10,100k,device,R
-C16,10uF,device,C
-C17,4.7uF,device,C
-C18,100nF,device,C
-C19,4.7uF,device,C
-D69,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D70,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D71,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D72,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D73,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D74,1N4148W,0.03,1N4148W-7-F,device,D_Small
-D75,1N4148W,0.03,1N4148W-7-F,device,D_Small
-U7,NLSX4373,0.40,NLSX4373,nlsx4373,NLSX4373
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Kcost,PN
+,,BT1,1.5V,device:Battery,Synapse:BATT_2466,http://www.digikey.com/product-detail/en/2466/36-2466-ND/303815,.59,2466
+,,BT2,1.5V,device:Battery,Synapse:BATT_2466,http://www.digikey.com/product-detail/en/2466/36-2466-ND/303815,.59,2466
+,,C1,100nF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C2,100nF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C3,10uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C4,10nF,device:C_Small,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C5,47pF,device:C_Small,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C6,47pF,device:C_Small,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C7,22uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C8,22uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C9,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C10,0.1uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 16V "
+,,C11,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C12,0.1uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 16V "
+,,C13,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C14,0.1uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 16V "
+,,C15,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C16,10uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C17,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C18,100nF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C19,4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C20,0.1uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 16V "
+,,C21,100nF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+,,C22,22uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,C23,22uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+,,D1,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D2,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D3,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D4,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D5,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D6,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D7,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D8,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D9,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D10,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D11,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D12,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D13,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D14,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D15,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D16,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D17,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D18,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D19,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D20,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D21,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D22,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D23,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D24,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D25,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D26,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D27,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D28,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D29,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D30,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D31,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D32,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D33,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D34,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D35,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D36,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D37,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D38,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D39,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D40,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D41,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D42,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D43,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D44,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D45,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D46,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D47,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D48,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D49,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D50,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D51,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D52,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D53,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D54,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D55,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D56,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D57,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D58,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D59,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D60,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D61,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D62,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D63,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D64,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D65,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D66,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D67,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D68,LED,device:LED,w_smd_leds:Led_0603,,,
+,,D69,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D70,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D71,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D72,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D73,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D74,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,D75,1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+,,FB1,600 OHM 500MA,device:FILTER,Resistors_SMD:R_0603,http://www.digikey.com/product-detail/en/BLM18EG601SN1D/490-3994-1-ND/1016254,.07,BLM18EG601SN1D
+,,L1,4.7uH  0.9A,device:INDUCTOR_SMALL,Synapse:TYS-2,http://www.digikey.com/product-detail/en/TYS30124R7M-10/240-2644-1-ND/4733553,0.18,TYS30124R7M-10
+,,P1,MicroB,conn:USB_OTG,Synapse:USBmicroB,http://www.digikey.com/product-detail/en/10118194-0001LF/609-4618-2-ND/2785389,0.20,10118194-0001LF
+,,P2,CONN_01X08,conn:CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,http://www.digikey.com/product-detail/en/75915-308LF/609-3559-ND/1523940,.64,FCI 75915-308LF
+,,P3,CONN_01X08,conn:CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,http://www.digikey.com/product-detail/en/75915-308LF/609-3559-ND/1523940,.64,FCI 75915-308LF
+,,P4,CONN_01X10,conn:CONN_01X10,Socket_Strips:Socket_Strip_Straight_1x10,http://www.digikey.com/product-detail/en/75915-310LF/609-3550-ND/1524287,.78,FCI 75915-310LF
+,,P5,CONN_01X06,conn:CONN_01X06,Socket_Strips:Socket_Strip_Straight_1x06,http://www.digikey.com/product-detail/en/75915-306LF/609-3558-ND/1523584,.49,FCI 75915-306LF
+,,P6,CONN_02X03,conn:CONN_02X03,Pin_Headers:Pin_Header_Straight_2x03,http://www.digikey.com/product-detail/en/87606-303LF/87606-303LF-ND/1523609,.58,FCI 87606-303LF
+,,Q1,ZXMN2F30FHCT-ND,device:Q_NMOS_GSD,TO_SOT_Packages_SMD:SOT-23,http://www.digikey.com/product-search/en?keywords=ZXMN2F30FHCT-ND,0.15,ZXMN2F30FHTA
+,,Q2,Si2305DS,device:Q_PMOS_GSD,TO_SOT_Packages_SMD:SOT-23,http://www.digikey.com/product-detail/en/SI2305CDS-T1-GE3/SI2305CDS-T1-GE3CT-ND/3758764,0.14,SI2305CDS-T1-GE3
+,,R1,10k,device:R,Resistors_SMD:R_0603,,,
+,,R2,27,device:R,Resistors_SMD:R_0603,,,
+,,R3,27,device:R,Resistors_SMD:R_0603,,,
+,,R4,270,device:R,Resistors_SMD:R_0603,,,
+,,R5,270,device:R,Resistors_SMD:R_0603,,,
+,,R6,270,device:R,Resistors_SMD:R_0603,,,
+,,R7,1k,device:R,Resistors_SMD:R_0603,,,
+,,R8,1k,device:R,Resistors_SMD:R_0603,,,
+,,R9,200k,device:R,Resistors_SMD:R_0603,,,
+,,R10,100k,device:R,Resistors_SMD:R_0603,,,
+,,R11,1M,device:R,Resistors_SMD:R_0603,,,
+,,R12,100k,device:R_Small,Resistors_SMD:R_0603,,,
+,,R13,39k,device:R,Resistors_SMD:R_0603,,,
+,,R14,4.7k,device:R_Small,Resistors_SMD:R_0603,,,
+,,R15,4.7k,device:R_Small,Resistors_SMD:R_0603,,,
+,,R16,4.7k,device:R,Resistors_SMD:R_0603,,,
+,,SW1,SWITCH_DPDT,SWITCH_DPDT:SWITCH_DPDT,Synapse:SO-DPDT-6,http://www.digikey.com/product-detail/en/JS202011SCQN/401-2002-2-ND/2094299,0.26,JS202011SCQN
+,,SW2,SW_PUSH,device:SW_PUSH,Buttons_Switches_SMD:SW_SPST_PTS645,http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107,0.16,PTS645SL50SMTR92 LFS
+,,SW3,SW_PUSH,device:SW_PUSH,Buttons_Switches_SMD:SW_SPST_PTS645,http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107,0.16,PTS645SL50SMTR92 LFS
+,,SW4,SW_PUSH,device:SW_PUSH,Buttons_Switches_SMD:SW_SPST_PTS645,http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107,0.16,PTS645SL50SMTR92 LFS
+,,SW5,SW_DIP_8,sw_dip:SW_DIP_8,Synapse:DIPSW-16,http://www.digikey.com/product-detail/en/1-1825058-9/1-1825058-9-ND/1021551,0.586,1-1825058-9
+,,U1,SM220,sm220:SM220,Synapse:SM220,http://www.digikey.com/product-detail/en/SM220UF1/746-1053-1-ND/5171418,20.00,SM220UF1
+,,U2,AS1115,as111x:AS1115,Synapse:QSOP-24,http://www.digikey.com/product-detail/en/AS1115-BSST/AS1115-BSSTCT-ND/2469597,2.11,AS1115-BSST
+,,U3,FT230XS,FT230XS:FT230XS,Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm,http://www.digikey.com/product-detail/en/FT230XS-R/768-1135-1-ND/3029155,1.53,FT230XS-R
+,,U4,LD1117S33CTR,regul:LD1117S33CTR,TO_SOT_Packages_SMD:SOT-223,http://www.digikey.com/product-detail/en/LD1117S33CTR/497-1241-1-ND/586241,0.14,
+,,U5,LIS3DH,STM_MEMS:LIS3DH,Synapse:LGA16_3x3,http://www.digikey.com/product-detail/en/LIS3DHTR/497-10613-1-ND/2334355,0.80,LIS3DHTR
+,,U6,TPS61070,regulators:TPS61070,TO_SOT_Packages_SMD:TSOT-6-MK06A,http://www.digikey.com/product-detail/en/TPS61070DDCR/296-17151-1-ND/665930,0.50,TPS61070DDCR
+,,U7,NLSX4373,nlsx4373:NLSX4373,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,http://www.digikey.com/product-detail/en/NLSX4373DR2G/NLSX4373DR2GOSCT-ND/3462432,0.40,NLSX4373
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Kcost,PN
+1,2,"BT1, BT2",1.5V,device:Battery,Synapse:BATT_2466,http://www.digikey.com/product-detail/en/2466/36-2466-ND/303815,.59,2466
+2,4,"C1, C2, C18, C21",100nF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+3,2,"C3, C16",10uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+4,1,C4,10nF,device:C_Small,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+5,2,"C5, C6",47pF,device:C_Small,Capacitors_SMD:C_0603,,,"X5R/X7R, 50V "
+6,4,"C7, C8, C22, C23",22uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+7,6,"C9, C11, C13, C15, C17, C19",4.7uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 6.3V "
+8,4,"C10, C12, C14, C20",0.1uF,device:C,Capacitors_SMD:C_0603,,,"X5R/X7R, 16V "
+9,67,"D1, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65, D66, D67, D68",LED,device:LED,w_smd_leds:Led_0603,,,
+10,8,"D2, D69, D70, D71, D72, D73, D74, D75",1N4148W,device:D_Small,Diodes_SMD:SOD-323,http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371,0.03,1N4148W-7-F
+11,1,FB1,600 OHM 500MA,device:FILTER,Resistors_SMD:R_0603,http://www.digikey.com/product-detail/en/BLM18EG601SN1D/490-3994-1-ND/1016254,.07,BLM18EG601SN1D
+12,1,L1,4.7uH  0.9A,device:INDUCTOR_SMALL,Synapse:TYS-2,http://www.digikey.com/product-detail/en/TYS30124R7M-10/240-2644-1-ND/4733553,0.18,TYS30124R7M-10
+13,1,P1,MicroB,conn:USB_OTG,Synapse:USBmicroB,http://www.digikey.com/product-detail/en/10118194-0001LF/609-4618-2-ND/2785389,0.20,10118194-0001LF
+14,2,"P2, P3",CONN_01X08,conn:CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,http://www.digikey.com/product-detail/en/75915-308LF/609-3559-ND/1523940,.64,FCI 75915-308LF
+15,1,P4,CONN_01X10,conn:CONN_01X10,Socket_Strips:Socket_Strip_Straight_1x10,http://www.digikey.com/product-detail/en/75915-310LF/609-3550-ND/1524287,.78,FCI 75915-310LF
+16,1,P5,CONN_01X06,conn:CONN_01X06,Socket_Strips:Socket_Strip_Straight_1x06,http://www.digikey.com/product-detail/en/75915-306LF/609-3558-ND/1523584,.49,FCI 75915-306LF
+17,1,P6,CONN_02X03,conn:CONN_02X03,Pin_Headers:Pin_Header_Straight_2x03,http://www.digikey.com/product-detail/en/87606-303LF/87606-303LF-ND/1523609,.58,FCI 87606-303LF
+18,1,Q1,ZXMN2F30FHCT-ND,device:Q_NMOS_GSD,TO_SOT_Packages_SMD:SOT-23,http://www.digikey.com/product-search/en?keywords=ZXMN2F30FHCT-ND,0.15,ZXMN2F30FHTA
+19,1,Q2,Si2305DS,device:Q_PMOS_GSD,TO_SOT_Packages_SMD:SOT-23,http://www.digikey.com/product-detail/en/SI2305CDS-T1-GE3/SI2305CDS-T1-GE3CT-ND/3758764,0.14,SI2305CDS-T1-GE3
+20,1,R1,10k,device:R,Resistors_SMD:R_0603,,,
+21,2,"R2, R3",27,device:R,Resistors_SMD:R_0603,,,
+22,3,"R4, R5, R6",270,device:R,Resistors_SMD:R_0603,,,
+23,2,"R7, R8",1k,device:R,Resistors_SMD:R_0603,,,
+24,1,R9,200k,device:R,Resistors_SMD:R_0603,,,
+25,1,R10,100k,device:R,Resistors_SMD:R_0603,,,
+26,1,R11,1M,device:R,Resistors_SMD:R_0603,,,
+27,1,R12,100k,device:R_Small,Resistors_SMD:R_0603,,,
+28,1,R13,39k,device:R,Resistors_SMD:R_0603,,,
+29,2,"R14, R15",4.7k,device:R_Small,Resistors_SMD:R_0603,,,
+30,1,R16,4.7k,device:R,Resistors_SMD:R_0603,,,
+31,1,SW1,SWITCH_DPDT,SWITCH_DPDT:SWITCH_DPDT,Synapse:SO-DPDT-6,http://www.digikey.com/product-detail/en/JS202011SCQN/401-2002-2-ND/2094299,0.26,JS202011SCQN
+32,3,"SW2, SW3, SW4",SW_PUSH,device:SW_PUSH,Buttons_Switches_SMD:SW_SPST_PTS645,http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107,0.16,PTS645SL50SMTR92 LFS
+33,1,SW5,SW_DIP_8,sw_dip:SW_DIP_8,Synapse:DIPSW-16,http://www.digikey.com/product-detail/en/1-1825058-9/1-1825058-9-ND/1021551,0.586,1-1825058-9
+34,1,U1,SM220,sm220:SM220,Synapse:SM220,http://www.digikey.com/product-detail/en/SM220UF1/746-1053-1-ND/5171418,20.00,SM220UF1
+35,1,U2,AS1115,as111x:AS1115,Synapse:QSOP-24,http://www.digikey.com/product-detail/en/AS1115-BSST/AS1115-BSSTCT-ND/2469597,2.11,AS1115-BSST
+36,1,U3,FT230XS,FT230XS:FT230XS,Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm,http://www.digikey.com/product-detail/en/FT230XS-R/768-1135-1-ND/3029155,1.53,FT230XS-R
+37,1,U4,LD1117S33CTR,regul:LD1117S33CTR,TO_SOT_Packages_SMD:SOT-223,http://www.digikey.com/product-detail/en/LD1117S33CTR/497-1241-1-ND/586241,0.14,
+38,1,U5,LIS3DH,STM_MEMS:LIS3DH,Synapse:LGA16_3x3,http://www.digikey.com/product-detail/en/LIS3DHTR/497-10613-1-ND/2334355,0.80,LIS3DHTR
+39,1,U6,TPS61070,regulators:TPS61070,TO_SOT_Packages_SMD:TSOT-6-MK06A,http://www.digikey.com/product-detail/en/TPS61070DDCR/296-17151-1-ND/665930,0.50,TPS61070DDCR
+40,1,U7,NLSX4373,nlsx4373:NLSX4373,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,http://www.digikey.com/product-detail/en/NLSX4373DR2G/NLSX4373DR2GOSCT-ND/3462432,0.40,NLSX4373

@@ -1,5 +1,5 @@
 Drill report for D:\HardwareDev\test_board2\test_board2.kicad_pcb
-Created on 12/16/2015 3:19:12 PM
+Created on 12/17/2015 5:33:57 AM
 
 Copper Layer Stackup:
     =============================================================
@@ -10,14 +10,13 @@ Copper Layer Stackup:
 Drill file 'D:test_board2.drl' contains
     plated through holes:
     =============================================================
-    T1  0.25mm  0.010"  (2 holes)
-    T2  0.36mm  0.014"  (266 holes)
-    T3  0.50mm  0.020"  (2 holes)  (with 2 slots)
-    T4  0.55mm  0.022"  (2 holes)  (with 2 slots)
-    T5  1.02mm  0.040"  (38 holes)
-    T6  1.02mm  0.040"  (4 holes)
-    T7  3.00mm  0.118"  (3 holes)
-    T8  5.00mm  0.197"  (2 holes)  (with 2 slots)
+    T1  0.36mm  0.014"  (268 holes)
+    T2  0.50mm  0.020"  (2 holes)  (with 2 slots)
+    T3  0.55mm  0.022"  (2 holes)  (with 2 slots)
+    T4  1.02mm  0.040"  (38 holes)
+    T5  1.02mm  0.040"  (4 holes)
+    T6  3.00mm  0.118"  (3 holes)
+    T7  5.00mm  0.197"  (2 holes)  (with 2 slots)
 
     Total plated holes count 319
 

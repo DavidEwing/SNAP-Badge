@@ -1,4 +1,4 @@
-update=12/10/2015 5:26:40 AM
+update=12/16/2015 3:34:14 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,6 +64,8 @@ LibName34=as111x
 LibName35=sw_dip
 LibName36=regulators
 LibName37=nlsx4373
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -74,5 +76,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
