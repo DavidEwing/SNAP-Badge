@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\HardwareDev\test_board2\test_board2.sch</source>
-    <date>12/17/2015 9:57:04 AM</date>
+    <source>D:/HardwareDev/test_board2/test_board2.sch</source>
+    <date>12/18/2015 5:23:17 AM</date>
     <tool>Eeschema 4.0.0-rc2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -39,6 +39,7 @@
       <fields>
         <field name="Kcost">1.53</field>
         <field name="PN">FT230XS-R</field>
+        <field name="Mfg">FTDI</field>
       </fields>
       <libsource lib="FT230XS" part="FT230XS"/>
       <sheetpath names="/" tstamps="/"/>
@@ -51,6 +52,7 @@
       <fields>
         <field name="PN">BLM18EG601SN1D</field>
         <field name="Kcost">.07</field>
+        <field name="Mfg">Murata</field>
       </fields>
       <libsource lib="device" part="FILTER"/>
       <sheetpath names="/" tstamps="/"/>
@@ -59,6 +61,10 @@
     <comp ref="R3">
       <value>27</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-0727RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564FE697</tstamp>
@@ -66,15 +72,21 @@
     <comp ref="R2">
       <value>27</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-0727RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564FE778</tstamp>
     </comp>
     <comp ref="C1">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">X5R/X7R, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -97,6 +109,10 @@
     <comp ref="R4">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565084CB</tstamp>
@@ -104,6 +120,10 @@
     <comp ref="R5">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565085CC</tstamp>
@@ -114,16 +134,19 @@
       <datasheet>http://www.digikey.com/product-detail/en/LD1117S33CTR/497-1241-1-ND/586241</datasheet>
       <fields>
         <field name="Kcost">0.14</field>
+        <field name="Mfg">ST Microelectronics</field>
       </fields>
       <libsource lib="regul" part="LD1117S33CTR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5651A59D</tstamp>
     </comp>
     <comp ref="C2">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">X5R/X7R, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -136,6 +159,7 @@
       <fields>
         <field name="PN">JS202011SCQN</field>
         <field name="Kcost">0.26</field>
+        <field name="Mfg">C&amp;K Components</field>
       </fields>
       <libsource lib="SWITCH_DPDT" part="SWITCH_DPDT"/>
       <sheetpath names="/" tstamps="/"/>
@@ -145,7 +169,9 @@
       <value>10nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">X5R/X7R, 50V </field>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">CC0603KRX7R9BB103</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -155,7 +181,9 @@
       <value>47pF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">NPO, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10C470JB8NNNC</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -165,7 +193,9 @@
       <value>47pF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">NPO, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10C470JB8NNNC</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,6 +208,7 @@
       <fields>
         <field name="Kcost">.59</field>
         <field name="PN">2466</field>
+        <field name="Mfg">Keystone</field>
       </fields>
       <libsource lib="device" part="Battery"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,6 +221,7 @@
       <fields>
         <field name="PN">LIS3DHTR</field>
         <field name="Kcost">0.80</field>
+        <field name="Mfg">ST Microelectronics</field>
       </fields>
       <libsource lib="STM_MEMS" part="LIS3DH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -199,7 +231,9 @@
       <value>10uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A106MQ8NNNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -209,7 +243,9 @@
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A226MQ8NRNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -219,7 +255,9 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,7 +267,9 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 16V </field>
+        <field name="Spec">X5R/X7R, 16V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -239,7 +279,9 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -249,7 +291,9 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 16V </field>
+        <field name="Spec">X5R/X7R, 16V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -262,6 +306,7 @@
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
         <field name="Kcost">0.16</field>
+        <field name="Mfg">C&amp;K Components</field>
       </fields>
       <libsource lib="device" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,6 +322,10 @@
     <comp ref="R6">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56573934</tstamp>
@@ -288,6 +337,7 @@
       <fields>
         <field name="PN">FCI 75915-308LF</field>
         <field name="Kcost">.64</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
@@ -300,6 +350,7 @@
       <fields>
         <field name="PN">FCI 75915-308LF</field>
         <field name="Kcost">.64</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
@@ -312,6 +363,7 @@
       <fields>
         <field name="Kcost">.78</field>
         <field name="PN">FCI 75915-310LF</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="CONN_01X10"/>
       <sheetpath names="/" tstamps="/"/>
@@ -324,6 +376,7 @@
       <fields>
         <field name="Kcost">.49</field>
         <field name="PN">FCI 75915-306LF</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
@@ -332,10 +385,11 @@
     <comp ref="P6">
       <value>CONN_02X03</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/87606-303LF/87606-303LF-ND/1523609</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491</datasheet>
       <fields>
-        <field name="PN">FCI 87606-303LF</field>
-        <field name="Kcost">.58</field>
+        <field name="PN">FCI 67997-206HLF</field>
+        <field name="Kcost">.14</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="CONN_02X03"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,6 +402,7 @@
       <fields>
         <field name="PN">SM220UF1</field>
         <field name="Kcost">20.00</field>
+        <field name="Mfg">Synapse Wireless</field>
       </fields>
       <libsource lib="sm220" part="SM220"/>
       <sheetpath names="/" tstamps="/"/>
@@ -356,6 +411,10 @@
     <comp ref="R7">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565BB622</tstamp>
@@ -363,6 +422,10 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565BBAF8</tstamp>
@@ -371,7 +434,9 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -380,6 +445,10 @@
     <comp ref="R12">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07100KL</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565DDED3</tstamp>
@@ -388,7 +457,9 @@
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A226MQ8NRNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -398,7 +469,9 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 16V </field>
+        <field name="Spec">X5R/X7R, 16V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -411,16 +484,19 @@
       <fields>
         <field name="Kcost">0.14</field>
         <field name="PN">SI2305CDS-T1-GE3</field>
+        <field name="Mfg">Vishay Siliconix</field>
       </fields>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565EF460</tstamp>
     </comp>
     <comp ref="C21">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">X5R/X7R, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -429,6 +505,10 @@
     <comp ref="R13">
       <value>39k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-0739KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565F00ED</tstamp>
@@ -440,6 +520,7 @@
       <fields>
         <field name="Kcost">0.15</field>
         <field name="PN">ZXMN2F30FHTA</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="Q_NMOS_GSD"/>
       <sheetpath names="/" tstamps="/"/>
@@ -449,7 +530,9 @@
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A226MQ8NRNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -459,7 +542,9 @@
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A226MQ8NRNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -468,6 +553,10 @@
     <comp ref="R14">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-074K7L</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565F664A</tstamp>
@@ -475,6 +564,10 @@
     <comp ref="R15">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-074K7L</field>
+      </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565F67CE</tstamp>
@@ -486,6 +579,7 @@
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
         <field name="Kcost">0.16</field>
+        <field name="Mfg">C&amp;K Components</field>
       </fields>
       <libsource lib="device" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -498,6 +592,7 @@
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
         <field name="Kcost">0.16</field>
+        <field name="Mfg">C&amp;K Components</field>
       </fields>
       <libsource lib="device" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -510,6 +605,7 @@
       <fields>
         <field name="Kcost">0.20</field>
         <field name="PN">10118194-0001LF</field>
+        <field name="Mfg">FCI</field>
       </fields>
       <libsource lib="conn" part="USB_OTG"/>
       <sheetpath names="/" tstamps="/"/>
@@ -518,6 +614,10 @@
     <comp ref="R16">
       <value>4.7k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-074K7L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56698EE9</tstamp>
@@ -529,6 +629,7 @@
       <fields>
         <field name="Kcost">.59</field>
         <field name="PN">2466</field>
+        <field name="Mfg">Keystone</field>
       </fields>
       <libsource lib="device" part="Battery"/>
       <sheetpath names="/" tstamps="/"/>
@@ -985,6 +1086,10 @@
     <comp ref="R1">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56543C01</tstamp>
@@ -993,7 +1098,9 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1003,7 +1110,9 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 16V </field>
+        <field name="Spec">X5R/X7R, 16V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1016,6 +1125,7 @@
       <fields>
         <field name="PN">AS1115-BSST</field>
         <field name="Kcost">2.11</field>
+        <field name="Mfg">ams AG</field>
       </fields>
       <libsource lib="as111x" part="AS1115"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1028,6 +1138,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1040,6 +1151,7 @@
       <fields>
         <field name="PN">1-1825058-9</field>
         <field name="Kcost">0.586</field>
+        <field name="Mfg">TE Connectivity Alcoswitch</field>
       </fields>
       <libsource lib="sw_dip" part="SW_DIP_8"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1052,6 +1164,7 @@
       <fields>
         <field name="PN">TYS30124R7M-10</field>
         <field name="Kcost">0.18</field>
+        <field name="Mfg">Laird</field>
       </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1064,6 +1177,7 @@
       <fields>
         <field name="PN">TPS61070DDCR</field>
         <field name="Kcost">0.50</field>
+        <field name="Mfg">TI</field>
       </fields>
       <libsource lib="regulators" part="TPS61070"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1072,6 +1186,10 @@
     <comp ref="R11">
       <value>1M</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-071ML</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565ABACF</tstamp>
@@ -1079,6 +1197,10 @@
     <comp ref="R9">
       <value>200k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07200KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565ABC72</tstamp>
@@ -1086,6 +1208,10 @@
     <comp ref="R10">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PN">RC0603FR-07100KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565AC043</tstamp>
@@ -1094,7 +1220,9 @@
       <value>10uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10A106MQ8NNNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1104,17 +1232,21 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565ACF1D</tstamp>
     </comp>
     <comp ref="C18">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 50V </field>
+        <field name="Spec">X5R/X7R, 50V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B104KB8SFNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1124,7 +1256,9 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="PN">X5R/X7R, 6.3V </field>
+        <field name="Spec">X5R/X7R, 6.3V </field>
+        <field name="Mfg">Samsung</field>
+        <field name="PN">CL10B475KQ8NQNC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1137,6 +1271,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1149,6 +1284,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1161,6 +1297,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1173,6 +1310,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1185,6 +1323,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1197,6 +1336,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1209,6 +1349,7 @@
       <fields>
         <field name="Kcost">0.03</field>
         <field name="PN">1N4148W-7-F</field>
+        <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1221,6 +1362,7 @@
       <fields>
         <field name="Kcost">0.40</field>
         <field name="PN">NLSX4373</field>
+        <field name="Mfg">ON Semiconductor</field>
       </fields>
       <libsource lib="nlsx4373" part="NLSX4373"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
@@ -1754,17 +1896,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>D:\Programs\KiCad\share\kicad\library\conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>D:\Programs\KiCad\share\kicad\library\regul.lib</uri>
-    </library>
     <library logical="sm220">
       <uri>D:\HardwareDev\KicadLibs\synapse\sm220.lib</uri>
     </library>
     <library logical="FT230XS">
       <uri>D:\HardwareDev\KicadLibs\synapse\FT230XS.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Programs\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>D:\Programs\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>D:\Programs\KiCad\share\kicad\library\regul.lib</uri>
     </library>
     <library logical="SWITCH_DPDT">
       <uri>D:\HardwareDev\KicadLibs\synapse\SWITCH_DPDT.lib</uri>
@@ -1783,9 +1928,6 @@
     </library>
     <library logical="nlsx4373">
       <uri>D:\HardwareDev\KicadLibs\synapse\nlsx4373.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>D:\Programs\KiCad\share\kicad\library\device.lib</uri>
     </library>
   </libraries>
   <nets>

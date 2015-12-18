@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 143.434999 21.514999 207.085001 148.665001)
     (thickness 1.6)
-    (drawings 85)
+    (drawings 87)
     (tracks 1782)
     (zones 0)
     (modules 149)
@@ -21,7 +21,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -39,7 +39,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user hide)
+    (48 B.Fab user)
     (49 F.Fab user)
   )
 
@@ -5443,6 +5443,12 @@
       (clearance 0.65024))
   )
 
+  (gr_text "Assembled by Screaming Circuits" (at 175.641 83.82) (layer B.SilkS)
+    (effects (font (thickness 0.254) italic) (justify mirror))
+  )
+  (gr_text "PC board by Sunstone Circuits" (at 177.038 80.01) (layer B.SilkS)
+    (effects (font (thickness 0.254) italic) (justify mirror))
+  )
   (gr_text "Synapse Wireless, Inc" (at 175.895 112.776 90) (layer B.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
   )
