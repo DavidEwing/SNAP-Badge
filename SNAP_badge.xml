@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:/HardwareDev/test_board2/test_board2.sch</source>
-    <date>12/18/2015 5:23:17 AM</date>
-    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <source>C:/HardwareDev/ESC_badge2016/SNAP-Badge/SNAP_badge.sch</source>
+    <date>12/21/2015 7:50:39 AM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SNAP Badge 2016</title>
         <company>Synapse Wireless</company>
         <rev>A</rev>
         <date>2015-12-01</date>
-        <source>test_board2.sch</source>
+        <source>SNAP_badge.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -41,7 +41,7 @@
         <field name="PN">FT230XS-R</field>
         <field name="Mfg">FTDI</field>
       </fields>
-      <libsource lib="FT230XS" part="FT230XS"/>
+      <libsource lib="ftdi" part="FT230XS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564FABB0</tstamp>
     </comp>
@@ -94,14 +94,14 @@
     </comp>
     <comp ref="D65">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565081E1</tstamp>
     </comp>
     <comp ref="D66">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56508379</tstamp>
@@ -135,6 +135,7 @@
       <fields>
         <field name="Kcost">0.14</field>
         <field name="Mfg">ST Microelectronics</field>
+        <field name="PN">LD1117S33CTR</field>
       </fields>
       <libsource lib="regul" part="LD1117S33CTR"/>
       <sheetpath names="/" tstamps="/"/>
@@ -154,14 +155,14 @@
     </comp>
     <comp ref="SW1">
       <value>SWITCH_DPDT</value>
-      <footprint>Synapse:SO-DPDT-6</footprint>
+      <footprint>Added:SO-DPDT-6</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/JS202011SCQN/401-2002-2-ND/2094299</datasheet>
       <fields>
         <field name="PN">JS202011SCQN</field>
         <field name="Kcost">0.26</field>
         <field name="Mfg">C&amp;K Components</field>
       </fields>
-      <libsource lib="SWITCH_DPDT" part="SWITCH_DPDT"/>
+      <libsource lib="switches" part="SWITCH_DPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565324C4</tstamp>
     </comp>
@@ -203,7 +204,7 @@
     </comp>
     <comp ref="BT2">
       <value>1.5V</value>
-      <footprint>Synapse:BATT_2466</footprint>
+      <footprint>Added:BATT_2466</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/2466/36-2466-ND/303815</datasheet>
       <fields>
         <field name="Kcost">.59</field>
@@ -216,7 +217,7 @@
     </comp>
     <comp ref="U5">
       <value>LIS3DH</value>
-      <footprint>Synapse:LGA16_3x3</footprint>
+      <footprint>Added:LGA16_3x3</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/LIS3DHTR/497-10613-1-ND/2334355</datasheet>
       <fields>
         <field name="PN">LIS3DHTR</field>
@@ -301,7 +302,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_PUSH</value>
-      <footprint>Buttons_Switches_SMD:SW_SPST_PTS645</footprint>
+      <footprint>Added:SW_SPST_PTS645</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107</datasheet>
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
@@ -314,7 +315,7 @@
     </comp>
     <comp ref="D1">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5657392E</tstamp>
@@ -404,7 +405,7 @@
         <field name="Kcost">20.00</field>
         <field name="Mfg">Synapse Wireless</field>
       </fields>
-      <libsource lib="sm220" part="SM220"/>
+      <libsource lib="synapse" part="SM220"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564B5D0F</tstamp>
     </comp>
@@ -574,7 +575,7 @@
     </comp>
     <comp ref="SW3">
       <value>SW_PUSH</value>
-      <footprint>Buttons_Switches_SMD:SW_SPST_PTS645</footprint>
+      <footprint>Added:SW_SPST_PTS645</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107</datasheet>
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
@@ -587,7 +588,7 @@
     </comp>
     <comp ref="SW4">
       <value>SW_PUSH</value>
-      <footprint>Buttons_Switches_SMD:SW_SPST_PTS645</footprint>
+      <footprint>Added:SW_SPST_PTS645</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/PTS645SL50SMTR92%20LFS/CKN9088TR-ND/1279107</datasheet>
       <fields>
         <field name="PN">PTS645SL50SMTR92 LFS</field>
@@ -600,7 +601,7 @@
     </comp>
     <comp ref="P1">
       <value>MicroB</value>
-      <footprint>Synapse:USBmicroB</footprint>
+      <footprint>Added:USBmicroB</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/10118194-0001LF/609-4618-2-ND/2785389</datasheet>
       <fields>
         <field name="Kcost">0.20</field>
@@ -624,7 +625,7 @@
     </comp>
     <comp ref="BT1">
       <value>1.5V</value>
-      <footprint>Synapse:BATT_2466</footprint>
+      <footprint>Added:BATT_2466</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/2466/36-2466-ND/303815</datasheet>
       <fields>
         <field name="Kcost">.59</field>
@@ -637,448 +638,448 @@
     </comp>
     <comp ref="D11">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525015</tstamp>
     </comp>
     <comp ref="D19">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652501C</tstamp>
     </comp>
     <comp ref="D27">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525023</tstamp>
     </comp>
     <comp ref="D35">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652502A</tstamp>
     </comp>
     <comp ref="D43">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525031</tstamp>
     </comp>
     <comp ref="D51">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525038</tstamp>
     </comp>
     <comp ref="D59">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652503F</tstamp>
     </comp>
     <comp ref="D3">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652504F</tstamp>
     </comp>
     <comp ref="D12">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525057</tstamp>
     </comp>
     <comp ref="D20">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652505E</tstamp>
     </comp>
     <comp ref="D28">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525065</tstamp>
     </comp>
     <comp ref="D36">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652506C</tstamp>
     </comp>
     <comp ref="D44">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525073</tstamp>
     </comp>
     <comp ref="D52">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652507A</tstamp>
     </comp>
     <comp ref="D60">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525081</tstamp>
     </comp>
     <comp ref="D4">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525091</tstamp>
     </comp>
     <comp ref="D13">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525099</tstamp>
     </comp>
     <comp ref="D21">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250A0</tstamp>
     </comp>
     <comp ref="D29">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250A7</tstamp>
     </comp>
     <comp ref="D37">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250AE</tstamp>
     </comp>
     <comp ref="D45">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250B5</tstamp>
     </comp>
     <comp ref="D53">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250BC</tstamp>
     </comp>
     <comp ref="D61">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250C3</tstamp>
     </comp>
     <comp ref="D5">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250D3</tstamp>
     </comp>
     <comp ref="D14">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250DB</tstamp>
     </comp>
     <comp ref="D22">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250E2</tstamp>
     </comp>
     <comp ref="D30">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250E9</tstamp>
     </comp>
     <comp ref="D38">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250F0</tstamp>
     </comp>
     <comp ref="D46">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250F7</tstamp>
     </comp>
     <comp ref="D54">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565250FE</tstamp>
     </comp>
     <comp ref="D62">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525105</tstamp>
     </comp>
     <comp ref="D6">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525115</tstamp>
     </comp>
     <comp ref="D15">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652511D</tstamp>
     </comp>
     <comp ref="D23">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525124</tstamp>
     </comp>
     <comp ref="D31">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652512B</tstamp>
     </comp>
     <comp ref="D39">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525132</tstamp>
     </comp>
     <comp ref="D47">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525139</tstamp>
     </comp>
     <comp ref="D55">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525140</tstamp>
     </comp>
     <comp ref="D63">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525147</tstamp>
     </comp>
     <comp ref="D7">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525157</tstamp>
     </comp>
     <comp ref="D16">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652515F</tstamp>
     </comp>
     <comp ref="D24">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525166</tstamp>
     </comp>
     <comp ref="D32">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652516D</tstamp>
     </comp>
     <comp ref="D40">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525174</tstamp>
     </comp>
     <comp ref="D48">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652517B</tstamp>
     </comp>
     <comp ref="D56">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525182</tstamp>
     </comp>
     <comp ref="D64">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525189</tstamp>
     </comp>
     <comp ref="D8">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525199</tstamp>
     </comp>
     <comp ref="D17">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251A1</tstamp>
     </comp>
     <comp ref="D25">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251A8</tstamp>
     </comp>
     <comp ref="D33">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251AF</tstamp>
     </comp>
     <comp ref="D41">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251B6</tstamp>
     </comp>
     <comp ref="D49">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251BD</tstamp>
     </comp>
     <comp ref="D57">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251C4</tstamp>
     </comp>
     <comp ref="D67">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251CB</tstamp>
     </comp>
     <comp ref="D9">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251DB</tstamp>
     </comp>
     <comp ref="D18">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251E3</tstamp>
     </comp>
     <comp ref="D26">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251EA</tstamp>
     </comp>
     <comp ref="D34">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251F1</tstamp>
     </comp>
     <comp ref="D42">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251F8</tstamp>
     </comp>
     <comp ref="D50">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565251FF</tstamp>
     </comp>
     <comp ref="D58">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>56525206</tstamp>
     </comp>
     <comp ref="D68">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652520D</tstamp>
     </comp>
     <comp ref="D10">
       <value>LED</value>
-      <footprint>w_smd_leds:Led_0603</footprint>
+      <footprint>Added:Led_0603</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>5652521D</tstamp>
@@ -1120,7 +1121,7 @@
     </comp>
     <comp ref="U2">
       <value>AS1115</value>
-      <footprint>Synapse:QSOP-24</footprint>
+      <footprint>Added:QSOP-24</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/AS1115-BSST/AS1115-BSSTCT-ND/2469597</datasheet>
       <fields>
         <field name="PN">AS1115-BSST</field>
@@ -1133,7 +1134,7 @@
     </comp>
     <comp ref="D2">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1146,7 +1147,7 @@
     </comp>
     <comp ref="SW5">
       <value>SW_DIP_8</value>
-      <footprint>Synapse:DIPSW-16</footprint>
+      <footprint>Added:DIPSW-16</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1-1825058-9/1-1825058-9-ND/1021551</datasheet>
       <fields>
         <field name="PN">1-1825058-9</field>
@@ -1159,7 +1160,7 @@
     </comp>
     <comp ref="L1">
       <value>4.7uH  0.9A</value>
-      <footprint>Synapse:TYS-2</footprint>
+      <footprint>Added:TYS-2</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/TYS30124R7M-10/240-2644-1-ND/4733553</datasheet>
       <fields>
         <field name="PN">TYS30124R7M-10</field>
@@ -1179,7 +1180,7 @@
         <field name="Kcost">0.50</field>
         <field name="Mfg">TI</field>
       </fields>
-      <libsource lib="regulators" part="TPS61070"/>
+      <libsource lib="TI_buckboost" part="TPS61070"/>
       <sheetpath names="/LED_matrix/" tstamps="/56523094/"/>
       <tstamp>565AAE65</tstamp>
     </comp>
@@ -1266,7 +1267,7 @@
     </comp>
     <comp ref="D69">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1279,7 +1280,7 @@
     </comp>
     <comp ref="D70">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1292,7 +1293,7 @@
     </comp>
     <comp ref="D71">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1305,7 +1306,7 @@
     </comp>
     <comp ref="D72">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1318,7 +1319,7 @@
     </comp>
     <comp ref="D73">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1331,7 +1332,7 @@
     </comp>
     <comp ref="D74">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1344,7 +1345,7 @@
     </comp>
     <comp ref="D75">
       <value>1N4148W</value>
-      <footprint>Diodes_SMD:SOD-323</footprint>
+      <footprint>Added:SOD-323</footprint>
       <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
@@ -1431,6 +1432,7 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X06">
+      <description>Connector 01x06</description>
       <footprints>
         <fp>Pin_Header_Straight_1X06</fp>
         <fp>Pin_Header_Angled_1X06</fp>
@@ -1451,6 +1453,7 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X08">
+      <description>Connector 01x08</description>
       <footprints>
         <fp>Pin_Header_Straight_1X08</fp>
         <fp>Pin_Header_Angled_1X08</fp>
@@ -1473,6 +1476,7 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X10">
+      <description>Connector 01x10</description>
       <footprints>
         <fp>Pin_Header_Straight_1X10</fp>
         <fp>Pin_Header_Angled_1X10</fp>
@@ -1497,6 +1501,7 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
       <footprints>
         <fp>Pin_Header_Straight_2X03</fp>
         <fp>Pin_Header_Angled_2X03</fp>
@@ -1563,7 +1568,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="FT230XS" part="FT230XS">
+    <libpart lib="ftdi" part="FT230XS">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">FT230XS</field>
@@ -1594,8 +1599,8 @@
         <field name="Value">INDUCTOR_SMALL</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
       </pins>
     </libpart>
     <libpart lib="regul" part="LD1117S33TR">
@@ -1740,7 +1745,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="sm220" part="SM220">
+    <libpart lib="synapse" part="SM220">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SM220</field>
@@ -1812,7 +1817,7 @@
         <pin num="H8" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="SWITCH_DPDT" part="SWITCH_DPDT">
+    <libpart lib="switches" part="SWITCH_DPDT">
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SWITCH_DPDT</field>
@@ -1827,7 +1832,6 @@
       </pins>
     </libpart>
     <libpart lib="sw_dip" part="SW_DIP_8">
-      <description>Switch DIP 8</description>
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_DIP_8</field>
@@ -1862,13 +1866,13 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="regulators" part="TPS61070">
+    <libpart lib="TI_buckboost" part="TPS61070">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TPS61070</field>
       </fields>
       <pins>
-        <pin num="1" name="SW" type="input"/>
+        <pin num="1" name="SW" type="passive"/>
         <pin num="2" name="GND" type="power_in"/>
         <pin num="3" name="EN" type="input"/>
         <pin num="4" name="FB" type="input"/>
@@ -1896,38 +1900,38 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="sm220">
-      <uri>D:\HardwareDev\KicadLibs\synapse\sm220.lib</uri>
-    </library>
-    <library logical="FT230XS">
-      <uri>D:\HardwareDev\KicadLibs\synapse\FT230XS.lib</uri>
-    </library>
     <library logical="device">
-      <uri>D:\Programs\KiCad\share\kicad\library\device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>D:\Programs\KiCad\share\kicad\library\conn.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="regul">
-      <uri>D:\Programs\KiCad\share\kicad\library\regul.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
     </library>
-    <library logical="SWITCH_DPDT">
-      <uri>D:\HardwareDev\KicadLibs\synapse\SWITCH_DPDT.lib</uri>
-    </library>
-    <library logical="STM_MEMS">
-      <uri>D:\HardwareDev\KicadLibs\synapse\STM_MEMS.lib</uri>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
     <library logical="as111x">
-      <uri>D:\HardwareDev\KicadLibs\synapse\as111x.lib</uri>
+      <uri>C:\HardwareDev\kicad_libs\symbols\as111x.lib</uri>
     </library>
-    <library logical="sw_dip">
-      <uri>D:\HardwareDev\KicadLibs\synapse\sw_dip.lib</uri>
-    </library>
-    <library logical="regulators">
-      <uri>D:\HardwareDev\KicadLibs\synapse\regulators.lib</uri>
+    <library logical="ftdi">
+      <uri>C:\HardwareDev\kicad_libs\symbols\ftdi.lib</uri>
     </library>
     <library logical="nlsx4373">
-      <uri>D:\HardwareDev\KicadLibs\synapse\nlsx4373.lib</uri>
+      <uri>C:\HardwareDev\kicad_libs\symbols\nlsx4373.lib</uri>
+    </library>
+    <library logical="STM_MEMS">
+      <uri>C:\HardwareDev\kicad_libs\symbols\STM_MEMS.lib</uri>
+    </library>
+    <library logical="sw_dip">
+      <uri>C:\HardwareDev\kicad_libs\symbols\sw_dip.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\HardwareDev\kicad_libs\symbols\switches.lib</uri>
+    </library>
+    <library logical="synapse">
+      <uri>C:\HardwareDev\kicad_libs\symbols\synapse.lib</uri>
+    </library>
+    <library logical="TI_buckboost">
+      <uri>C:\HardwareDev\kicad_libs\symbols\TI_buckboost.lib</uri>
     </library>
   </libraries>
   <nets>
