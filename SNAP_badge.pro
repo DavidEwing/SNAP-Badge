@@ -1,4 +1,4 @@
-update=12/20/2015 9:16:01 AM
+update=12/21/2015 5:29:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=C:/HardwareDev/kicad_libs/symbols
+LibDir=D:/HardwareDev/kicad_libs/symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device

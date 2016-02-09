@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:/HardwareDev/ESC_badge2016/SNAP-Badge/SNAP_badge.sch</source>
-    <date>12/21/2015 7:50:39 AM</date>
+    <source>D:/HardwareDev/ESC_badge2016/SNAP-Badge/SNAP_badge.sch</source>
+    <date>2/9/2016 3:38:04 PM</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -334,11 +334,11 @@
     <comp ref="P2">
       <value>CONN_01X08</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x08</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/75915-308LF/609-3559-ND/1523940</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/PPPC081LFBN-RC/S7041-ND/810180</datasheet>
       <fields>
-        <field name="PN">FCI 75915-308LF</field>
-        <field name="Kcost">.64</field>
-        <field name="Mfg">FCI</field>
+        <field name="PN">PPPC081LFBN-RC</field>
+        <field name="Kcost">.36</field>
+        <field name="Mfg">Sullins</field>
       </fields>
       <libsource lib="conn" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
@@ -347,11 +347,11 @@
     <comp ref="P3">
       <value>CONN_01X08</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x08</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/75915-308LF/609-3559-ND/1523940</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/PPPC081LFBN-RC/S7041-ND/810180</datasheet>
       <fields>
-        <field name="PN">FCI 75915-308LF</field>
-        <field name="Kcost">.64</field>
-        <field name="Mfg">FCI</field>
+        <field name="PN">PPPC081LFBN-RC</field>
+        <field name="Kcost">.36</field>
+        <field name="Mfg">Sullins</field>
       </fields>
       <libsource lib="conn" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
@@ -360,11 +360,11 @@
     <comp ref="P4">
       <value>CONN_01X10</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x10</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/75915-310LF/609-3550-ND/1524287</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/PPPC101LFBN-RC/S7043-ND/810182</datasheet>
       <fields>
-        <field name="Kcost">.78</field>
-        <field name="PN">FCI 75915-310LF</field>
-        <field name="Mfg">FCI</field>
+        <field name="Kcost">.36</field>
+        <field name="PN">PPPC101LFBN-RC</field>
+        <field name="Mfg">Sullins</field>
       </fields>
       <libsource lib="conn" part="CONN_01X10"/>
       <sheetpath names="/" tstamps="/"/>
@@ -373,11 +373,11 @@
     <comp ref="P5">
       <value>CONN_01X06</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x06</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/75915-306LF/609-3558-ND/1523584</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/PPPC061LFBN-RC/S7039-ND/810178</datasheet>
       <fields>
-        <field name="Kcost">.49</field>
-        <field name="PN">FCI 75915-306LF</field>
-        <field name="Mfg">FCI</field>
+        <field name="Kcost">.29</field>
+        <field name="PN">PPPC061LFBN-RC</field>
+        <field name="Mfg">Sullins</field>
       </fields>
       <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1135,10 +1135,10 @@
     <comp ref="D2">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1268,10 +1268,10 @@
     <comp ref="D69">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1281,10 +1281,10 @@
     <comp ref="D70">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1294,10 +1294,10 @@
     <comp ref="D71">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1307,10 +1307,10 @@
     <comp ref="D72">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1320,10 +1320,10 @@
     <comp ref="D73">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1333,10 +1333,10 @@
     <comp ref="D74">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1346,10 +1346,10 @@
     <comp ref="D75">
       <value>1N4148W</value>
       <footprint>Added:SOD-323</footprint>
-      <datasheet>http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDITR-ND/814371</datasheet>
+      <datasheet>http://www.digikey.com/product-detail/en/1N4148WS-7-F/1N4148WS-FDICT-ND/815281</datasheet>
       <fields>
         <field name="Kcost">0.03</field>
-        <field name="PN">1N4148W-7-F</field>
+        <field name="PN">1N4148WS-7-F</field>
         <field name="Mfg">Diodes Incorporated</field>
       </fields>
       <libsource lib="device" part="D_Small"/>
@@ -1900,38 +1900,38 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
-    </library>
     <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+      <uri>D:\Programs\KiCad\share\kicad\library\conn.lib</uri>
     </library>
     <library logical="as111x">
-      <uri>C:\HardwareDev\kicad_libs\symbols\as111x.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\as111x.lib</uri>
     </library>
     <library logical="ftdi">
-      <uri>C:\HardwareDev\kicad_libs\symbols\ftdi.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\ftdi.lib</uri>
     </library>
     <library logical="nlsx4373">
-      <uri>C:\HardwareDev\kicad_libs\symbols\nlsx4373.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\nlsx4373.lib</uri>
     </library>
     <library logical="STM_MEMS">
-      <uri>C:\HardwareDev\kicad_libs\symbols\STM_MEMS.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\STM_MEMS.lib</uri>
     </library>
     <library logical="sw_dip">
-      <uri>C:\HardwareDev\kicad_libs\symbols\sw_dip.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\sw_dip.lib</uri>
     </library>
     <library logical="switches">
-      <uri>C:\HardwareDev\kicad_libs\symbols\switches.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\switches.lib</uri>
     </library>
     <library logical="synapse">
-      <uri>C:\HardwareDev\kicad_libs\symbols\synapse.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\synapse.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>D:\Programs\KiCad\share\kicad\library\regul.lib</uri>
     </library>
     <library logical="TI_buckboost">
-      <uri>C:\HardwareDev\kicad_libs\symbols\TI_buckboost.lib</uri>
+      <uri>D:\HardwareDev\kicad_libs\symbols\TI_buckboost.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Programs\KiCad\share\kicad\library\device.lib</uri>
     </library>
   </libraries>
   <nets>
