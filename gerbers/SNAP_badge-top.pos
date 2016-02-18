@@ -1,4 +1,4 @@
-### Module positions - created on 12/22/2015 7:40:58 AM ###
+### Module positions - created on 2/16/2016 6:43:59 AM ###
 ### Printed by Pcbnew version kicad 4.0.1-stable
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -102,9 +102,9 @@ D73      1N4148W          SOD-323             1.1000    -1.8500     180.0    top
 D74      1N4148W          SOD-323             1.1000    -1.7500     180.0    top
 D75      1N4148W          SOD-323             1.1000    -1.6500     180.0    top
 FB1      600 OHM 500MA    R_0603              0.0100    -4.2200       0.0    top
-Fiducial VAL**            Fiducial_Mark       1.8400     0.0000       0.0    top
-Fiducial VAL**            Fiducial_Mark       0.0000     0.0000       0.0    top
 Fiducial VAL**            Fiducial_Mark       1.5600    -4.4800       0.0    top
+Fiducial VAL**            Fiducial_Mark       0.0000     0.0000       0.0    top
+Fiducial VAL**            Fiducial_Mark       1.8400     0.0000       0.0    top
 L1       4.7uH  0.9A      TYS-2               0.8250    -3.5650     270.0    top
 P1       MicroB           USBmicroB          -0.2530    -4.3370       0.0    top
 Q1       ZXMN2F30FHCT-ND  SOT-23              1.2600    -4.2100     270.0    top

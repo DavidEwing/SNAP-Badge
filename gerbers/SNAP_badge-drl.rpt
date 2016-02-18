@@ -1,5 +1,5 @@
-Drill report for D:\HardwareDev\test_board2\test_board2.kicad_pcb
-Created on 12/17/2015 5:33:57 AM
+Drill report for D:\HardwareDev\ESC_badge2016\SNAP-Badge\SNAP_badge.kicad_pcb
+Created on 2/16/2016 6:41:36 AM
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'D:test_board2.drl' contains
+Drill file 'D:SNAP_badge.drl' contains
     plated through holes:
     =============================================================
     T1  0.36mm  0.014"  (268 holes)
@@ -21,7 +21,7 @@ Drill file 'D:test_board2.drl' contains
     Total plated holes count 319
 
 
-Drill file 'D:test_board2-NPTH.drl' contains
+Drill file 'D:SNAP_badge-NPTH.drl' contains
     unplated through holes:
     =============================================================
 
