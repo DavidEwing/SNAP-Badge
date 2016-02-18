@@ -43,8 +43,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "SNAP Badge 2016"
-Date "2015-12-01"
-Rev "A"
+Date "2016-02-18"
+Rev "B"
 Comp "Synapse Wireless"
 Comment1 ""
 Comment2 ""
